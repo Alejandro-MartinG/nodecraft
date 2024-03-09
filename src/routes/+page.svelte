@@ -126,6 +126,8 @@
         flex-direction: column;
         padding: 1rem;
         background-color: #1b1f2b;
+        align-items: center;
+        justify-content: center;
     }
     button {
       box-shadow: var(--shadow-elevation-medium);
