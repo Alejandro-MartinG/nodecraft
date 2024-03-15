@@ -2,11 +2,11 @@
   const socialLinks = [
     // { icon: 'fab fa-facebook-f', url: 'https://www.facebook.com/tuUsuario' },
     { icon: 'fab fa-twitter', url: 'https://twitter.com/NodeCraft_Web3' },
-    { icon: 'fab fa-instagram', url: 'https://www.instagram.com/tuUsuario' },
+    // { icon: 'fab fa-instagram', url: 'https://www.instagram.com/' },
     // { icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/tuUsuario' },
-    { icon: 'fab fa-telegram-plane', url: 'https://t.me/tuUsuario' },
+    { icon: 'fab fa-telegram-plane', url: 'https://t.me/josenarant' },
     // { icon: 'fab fa-whatsapp', url: 'https://wa.me/tuNumero' },
-    { icon: 'fab fa-discord', url: 'https://discord.gg/tuInvitacion' },
+    // { icon: 'fab fa-discord', url: 'https://discord.gg/tuInvitacion' },
   ];
 </script>
 

@@ -12,93 +12,117 @@
 <div class="services" id="services">
     <h2 class="services-title">Our Services</h2>
     <div class="services-container">
-        <img class="card-img-top" src="/myria.png?url" alt="Card image cap" />
-        <div class="card-body">
-            <h3 class="card-title">Myria</h3>
-            <p class="card-text">
-                Ensure your Myria node operates at peak performance with our
-                comprehensive maintenance service. For just $15 per month, we
-                handle updates, monitoring, and troubleshooting to keep your
-                node running smoothly.
-            </p>
-            <p class="card-text">
-                <strong> Price: $15/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img
+                class="card-img-top"
+                src="/myria.png?url"
+                alt="Card image cap"
+            />
+            <div class="card-body">
+                <h3 class="card-title">Myria</h3>
+                <p class="card-text">
+                    Ensure your Myria node operates at peak performance with our
+                    comprehensive maintenance service. For just $15 per month,
+                    we handle updates, monitoring, and troubleshooting to keep
+                    your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $15/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
-    </div>
-    <div class="card service" style="width: 18rem;">
-        <img
-            class="card-img-top"
-            src="/celestia.svg?url"
-            alt="Card image cap"
-        />
-        <div class="card-body">
-            <h3 class="card-title">Celestia</h3>
-            <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-            </p>
-            <p class="card-text">
-                <strong> Price: $20/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img
+                class="card-img-top"
+                src="/celestia.svg?url"
+                alt="Card image cap"
+            />
+            <div class="card-body">
+                <h3 class="card-title">Celestia</h3>
+                <p class="card-text">
+                    Ensure your Celestia node operates at peak performance with
+                    our comprehensive maintenance service. For just $20 per
+                    month, we handle updates, monitoring, and troubleshooting to
+                    keep your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $20/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
-    </div>
-    <div class="card service" style="width: 18rem;">
-        <img class="card-img-top" src="/aethir.png?url" alt="Shardeum logo" />
-        <div class="card-body">
-            <h3 class="card-title">Aethir</h3>
-            <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-            </p>
-            <p class="card-text">
-                <strong> Price: $20/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img
+                class="card-img-top"
+                src="/aethir.png?url"
+                alt="Shardeum logo"
+            />
+            <div class="card-body">
+                <h3 class="card-title">Aethir</h3>
+                <p class="card-text">
+                    Ensure your Aethir node operates at peak performance with
+                    our comprehensive maintenance service. For just $20 per
+                    month, we handle updates, monitoring, and troubleshooting to
+                    keep your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $20/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
-    </div>
-    <div class="card service" style="width: 18rem;">
-        <img class="rimg" src="/powerloom.jpg?url" alt="Shardeum logo" />
-        <div class="card-body">
-            <h3 class="card-title">Powerloom</h3>
-            <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-            </p>
-            <p class="card-text">
-                <strong> Price: $20/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img class="rimg" src="/powerloom.jpg?url" alt="Shardeum logo" />
+            <div class="card-body">
+                <h3 class="card-title">Powerloom</h3>
+                <p class="card-text">
+                    Ensure your Powerloom node operates at peak performance with
+                    our comprehensive maintenance service. For just $20 per
+                    month, we handle updates, monitoring, and troubleshooting to
+                    keep your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $20/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
-    </div>
-    <div class="card service" style="width: 18rem;">
-        <img class="card-img-top" src="/shardeum.svg?url" alt="Shardeum logo" />
-        <div class="card-body">
-            <h3 class="card-title">Shardeum</h3>
-            <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-            </p>
-            <p class="card-text">
-                <strong> Price: $12/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img
+                class="card-img-top"
+                src="/shardeum.svg?url"
+                alt="Shardeum logo"
+            />
+            <div class="card-body">
+                <h3 class="card-title">Shardeum</h3>
+                <p class="card-text">
+                    Ensure your Shardeum node operates at peak performance with
+                    our comprehensive maintenance service. For just $12 per
+                    month, we handle updates, monitoring, and troubleshooting to
+                    keep your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $12/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
-    </div>
-    <div class="card service" style="width: 18rem;">
-        <img class="card-img-top" src="/xai.svg?url" alt="Card image cap" />
-        <div class="card-body">
-            <h3 class="card-title">Xai</h3>
-            <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-            </p>
-            <p class="card-text">
-                <strong> Price: $18/month </strong>
-            </p>
-            <button on:click={navigateForm}>Get Started</button>
+        <div class="card service">
+            <img class="card-img-top" src="/xai.svg?url" alt="Card image cap" />
+            <div class="card-body">
+                <h3 class="card-title">Xai</h3>
+                <p class="card-text">
+                    Ensure your Xai node operates at peak performance with our
+                    comprehensive maintenance service. For just $18 per month,
+                    we handle updates, monitoring, and troubleshooting to keep
+                    your node running smoothly.
+                </p>
+                <p class="card-text">
+                    <strong> Price: $18/month </strong>
+                </p>
+                <button on:click={navigateForm}>Get Started</button>
+            </div>
         </div>
     </div>
 </div>
@@ -152,6 +176,7 @@
     }
     .card {
         box-shadow: var(--shadow-elevation-low);
+        width: 18rem;
     }
     .card-text {
         font-size: 1rem;
@@ -207,19 +232,21 @@
     /* Styles for tablets and desktop */
     @media (min-width: 768px) {
         .services {
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
+            padding: 7rem;
         }
         .services-title {
             margin-bottom: 2rem;
         }
         .services-container {
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: stretch;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
         .service {
-            margin-bottom: 0; /* Elimina el margen inferior en escritorio */
+            margin: 0.5rem;
+            width: calc(33.333% - 1rem); /* Adjust width for 3 columns */
         }
     }
     :root {
